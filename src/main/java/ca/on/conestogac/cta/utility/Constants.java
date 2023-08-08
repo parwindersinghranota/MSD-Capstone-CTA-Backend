@@ -1,12 +1,5 @@
 package ca.on.conestogac.cta.utility;
 
-import ca.on.conestogac.cta.entity.RidePost;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-
-import java.util.Optional;
-
 public class Constants {
     public static final String LOGIN_FAILED = "LOGIN_FAILED";
     public static final String LOGIN_SUCCESSFUL = "LOGIN_SUCCESSFUL";
